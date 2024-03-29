@@ -5,7 +5,7 @@ project(sdformat_vendor)
 # Project-specific settings
 set(LIB_VER_MAJOR 14)
 set(LIB_VER_MINOR 1)
-set(LIB_VER_PATCH 0)
+set(LIB_VER_PATCH 1)
 
 # Derived variables
 set(LIB_NAME sdformat)
@@ -44,7 +44,7 @@ ament_vendor(${LIB_NAME_UNDERSCORE}_vendor
   VCS_URL https://github.com/gazebosim/${GITHUB_NAME}.git
   VCS_VERSION ${GITHUB_NAME}${LIB_VER_MAJOR}_${LIB_VER}
   CMAKE_ARGS
-    -DBUILD_DOCS:BOOL=OFF
+    -DSKIP_PYBIND11:BOOL=ON
   GLOBAL_HOOK
 )
 
