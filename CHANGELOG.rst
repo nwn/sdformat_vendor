@@ -2,8 +2,8 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2024-03-29)
+------------------
 * Update version, disable pybind11
   This also removes `BUILD_DOCS` since it's not a valid CMake argument in
   libsdformat.
