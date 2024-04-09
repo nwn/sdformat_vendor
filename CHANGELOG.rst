@@ -2,8 +2,8 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2024-04-09)
+------------------
 * Add target with <pkg>::<pkg> format (`#2 <https://github.com/gazebo-release/sdformat_vendor/issues/2>`_)
   * gz-lib target aliases to gz-lib::gz-lib
   * Support the '::all' target
