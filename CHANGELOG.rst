@@ -2,8 +2,8 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2024-04-23)
+------------------
 * Use an alias target for root library
 * Contributors: Addisu Z. Taddese
 
