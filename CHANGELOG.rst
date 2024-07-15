@@ -2,8 +2,8 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.2 (2024-07-15)
+------------------
 * Update vendored package version to 14.4.0
 * Contributors: Addisu Z. Taddese
 
