@@ -46,6 +46,7 @@ ament_vendor(${LIB_NAME_UNDERSCORE}_vendor
   CMAKE_ARGS
     -DSKIP_PYBIND11:BOOL=ON
   GLOBAL_HOOK
+  PATCHES patches
 )
 
 find_package(ament_cmake_test REQUIRED)

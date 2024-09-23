@@ -1,0 +1,26 @@
+From 85055a3c0f64fd1f13fa5b7cbe9be55edf8df192 Mon Sep 17 00:00:00 2001
+From: Nathan Wiebe Neufeldt <nwiebeneufeldt@clearpath.ai>
+Date: Mon, 23 Sep 2024 08:23:32 -0400
+Subject: [PATCH] Bump the urdfdom dependency to 4.0 from 1.0
+
+This matches the version bundled with ROS 2 Jazzy.
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 93b4c410..fe6b537b 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -56,7 +56,7 @@ if (BUILD_SDF)
+   #  2. if USE_INTERNAL_URDF is set to True, use the internal copy
+   #  3. if USE_INTERNAL_URDF is set to False, force to search system installation, fail on error
+   if (NOT DEFINED USE_INTERNAL_URDF OR NOT USE_INTERNAL_URDF)
+-    gz_find_package(GzURDFDOM VERSION 1.0 QUIET)
++    gz_find_package(GzURDFDOM VERSION 4.0 QUIET)
+     if (NOT GzURDFDOM_FOUND)
+       if (NOT DEFINED USE_INTERNAL_URDF)
+         # fallback to internal urdf
+-- 
+2.25.1
+
